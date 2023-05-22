@@ -30,7 +30,7 @@ public class DDcontroller {
 		return"hello "+name;
 	}
 	
-	// 기본적으로 json형태로 return
+	// 객채면 기본적으로 json형태로 return
 	@GetMapping("hello-api")
 	@ResponseBody 
 	public Hello helloApi (@RequestParam("name") String name) {
